@@ -57,18 +57,23 @@ Loan Default risk prediction
 ### Project Structure
 
 Loan-Default-Analytics/
+
 ├── backend/
+
 │   ├── main.py
 │   ├── app.py
 │   ├── train.py
 │   └── test_api.py
+
 │
 ├── frontend/
+
 │   └── src/
 │       ├── components/
 │       ├── PredictPage.tsx
 │       ├── AnalysisPage.tsx
 │       └── style.css
+
 │
 └── README.md
 
