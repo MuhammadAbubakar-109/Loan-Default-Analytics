@@ -28,8 +28,8 @@ from pydantic import BaseModel, Field
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "artifacts" / "model.pkl"
-METRICS_PATH = BASE_DIR / "artifacts" / "model_metrics.json"
+MODEL_PATH = BASE_DIR / "artifact" / "model.pkl"
+METRICS_PATH = BASE_DIR / "artifact" / "model_metrics.json"
 
 pipeline = None
 feature_cols = None
